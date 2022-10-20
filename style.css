@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: auto;
     font-family: 'Overpass', sans-serif;
     padding: 10px 0px;
 }
@@ -8,13 +8,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
 
 body{
-    width: 1440px;
+    width: 375px;
     height: 100vh;
     background-color: hsl(216, 12%, 8%);
     position: relative;
 }
 main{
-    width: 27%;    
+    width: 100%;    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -39,7 +39,7 @@ li{
     background-color: hsl(213, 21%, 25%);
     border-radius: 100%;
     padding: 0px;
-    margin: 7px;
+    margin: 5px;
     height: 50px;
     width: 50px;
     line-height: 50px;
@@ -76,4 +76,13 @@ section p {
     border-radius: 20px;
     box-sizing: border-box;
     color: hsl(25, 97%, 53%);
+}
+@media screen and (min-width: 600px) {
+    body{
+        width: 1440px;        
+    }
+    main{
+        width: 375px;    
+        
+    }
 }
