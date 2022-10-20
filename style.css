@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    padding: 10px 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+
+body{
+    width: 1440px;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    position: relative;
+}
+main{
+    width: 27%;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    box-sizing: border-box;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    padding: 25px;
+    border-radius: 17px;
+}
+#star{    
+    border-radius: 17px;    
+    padding: 10px;
+    background-color: hsl(213, 21%, 25%);
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+li{
+    display: inline-block;
+    background-color: hsl(213, 21%, 25%);
+    border-radius: 100%;
+    padding: 0px;
+    margin: 7px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+li:hover{
+    background:hsl(25, 97%, 53%);
+}
+button{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+button:hover{
+    background:white;
+    color: hsl(25, 97%, 53%);
+}
+.click{
+    cursor: pointer
+}
+#containerTwo{
+    text-align: center;
+}
+#tankyou {
+    padding-left: 25%;
+}
+section p {
+    margin: auto;
+    background-color: hsl(213, 21%, 25%);
+    width: 50%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: hsl(25, 97%, 53%);
+}
