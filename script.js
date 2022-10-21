@@ -6,7 +6,7 @@ Array.from(notas).forEach(i=>{
         for(nota of notas){
             nota.style.backgroundColor = "hsl(213, 21%, 25%)"
         }     
-        valor = i.target.value
+        valor = i.target.id
         i.target.style.backgroundColor = "hsl(25, 97%, 53%)"
         span.innerText = valor
     })
