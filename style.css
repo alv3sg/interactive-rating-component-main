@@ -69,7 +69,7 @@ button:hover{
 #tankyou {
     padding-left: 25%;
 }
-section p {
+.section p {
     margin: auto;
     background-color: hsl(213, 21%, 25%);
     width: 50%;
